@@ -13,6 +13,10 @@ import ResumeSection from '../components/ResumeSection';
 import Contact     from '../components/Contact';
 import Footer      from '../components/Footer';
 import CursorGlow  from '../components/CursorGlow';
+import ScrollProgress  from '../components/ScrollProgress';
+import CustomCursor    from '../components/CustomCursor';
+import ThemeToggle     from '../components/ThemeToggle';
+import Testimonials    from '../components/Testimonials';
 
 export default function Portfolio() {
   const { data, loading } = usePortfolio();
@@ -173,22 +177,26 @@ export default function Portfolio() {
   if (!data) return null;
 
   return (
-    <>
-      <CursorGlow />
-      <Navbar hero={data.hero} />
-      <main>
-        <Hero        hero={data.hero} />
-        <About       about={data.about} education={data.education} />
-        <Skills      skills={data.skills} />
-        <Projects    projects={data.projects} />
-        <Education   education={data.education} />
-        <Certifications certifications={data.certifications} />
-        <Achievements   achievements={data.achievements} />
-        <Extracurricular extracurricular={data.extracurricular} />
-        <ResumeSection  hero={data.hero} />
-        <Contact />
-      </main>
-      <Footer hero={data.hero} />
-    </>
-  );
+  <>
+    <CustomCursor />
+    <ScrollProgress />
+    <ThemeToggle />
+    <CursorGlow />
+    <Navbar hero={data.hero} />
+    <main>
+      <Hero        hero={data.hero} />
+      <About       about={data.about} education={data.education} />
+      <Skills      skills={data.skills} />
+      <Projects    projects={data.projects} />
+      <Education   education={data.education} />
+      <Certifications certifications={data.certifications} />
+      <Achievements   achievements={data.achievements} />
+      <Extracurricular extracurricular={data.extracurricular} />
+      <Testimonials />
+      <ResumeSection  hero={data.hero} />
+      <Contact />
+    </main>
+    <Footer hero={data.hero} />
+  </>
+);
 }
