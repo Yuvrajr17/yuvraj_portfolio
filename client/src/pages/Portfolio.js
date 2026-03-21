@@ -16,7 +16,6 @@ import CursorGlow  from '../components/CursorGlow';
 import ScrollProgress  from '../components/ScrollProgress';
 import CustomCursor    from '../components/CustomCursor';
 import ThemeToggle     from '../components/ThemeToggle';
-import Testimonials    from '../components/Testimonials';
 
 export default function Portfolio() {
   const { data, loading } = usePortfolio();
@@ -192,7 +191,6 @@ export default function Portfolio() {
       <Certifications certifications={data.certifications} />
       <Achievements   achievements={data.achievements} />
       <Extracurricular extracurricular={data.extracurricular} />
-      <Testimonials />
       <ResumeSection  hero={data.hero} />
       <Contact />
     </main>

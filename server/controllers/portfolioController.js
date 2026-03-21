@@ -3,7 +3,7 @@ const Portfolio = require('../models/Portfolio');
 const PORTFOLIO_DATA = {
   hero: {
     name: 'Yuvraj Singh Sisodiya',
-    role: 'MERN Stack Developer & CS Engineer',
+    role: 'Full-Stack Developer',
     bio: 'B.Tech Computer Science student at Lovely Professional University, passionate about building full-stack web applications. I love turning ideas into scalable, production-grade products using the MERN stack.',
     tagline: 'Available for opportunities',
     github: 'https://github.com/Yuvrajr17',
@@ -12,7 +12,7 @@ const PORTFOLIO_DATA = {
     phone: '+91 8719041511',
   },
   about: {
-    intro: "Hey! I'm Yuvraj, a full-stack developer in the making — currently in my second year of B.Tech CSE at Lovely Professional University, Phagwara. I thrive at the intersection of logic and creativity, building web apps that are both functional and well-crafted. I'm deeply invested in the MERN ecosystem and enjoy solving algorithmic challenges on LeetCode to sharpen my DSA fundamentals.",
+    intro: "Hey! I'm Yuvraj, a full-stack developer in the making — currently in my third year of B.Tech CSE at Lovely Professional University, Phagwara. I thrive at the intersection of logic and creativity, building web apps that are both functional and well-crafted. I'm deeply invested in the MERN ecosystem and enjoy solving algorithmic challenges on LeetCode to sharpen my DSA fundamentals.",
     qualities: [
       'DSA Problem Solver', 'Full-Stack Builder', 'Quick Learner',
       'Leadership', 'System Thinker', 'OOP Enthusiast', 'CS Fundamentals', 'Coffee + Code'
@@ -44,7 +44,7 @@ const PORTFOLIO_DATA = {
       items: [
         { name: 'MongoDB', level: 82 },
         { name: 'PostgreSQL', level: 68 },
-        { name: 'MySQL', level: 70 },
+        { name: 'MySQL', level: 88 },
         { name: 'Git', level: 80 },
         { name: 'VS Code / XAMPP', level: 85 },
       ]
@@ -55,7 +55,7 @@ const PORTFOLIO_DATA = {
         { name: 'DSA', level: 80 },
         { name: 'OOP', level: 82 },
         { name: 'Operating Systems', level: 70 },
-        { name: 'Networking', level: 65 },
+        { name: 'Networking', level: 75 },
         { name: 'REST APIs', level: 84 },
       ]
     }
@@ -72,7 +72,7 @@ const PORTFOLIO_DATA = {
         'Integrated MongoDB for efficient data storage and retrieval of user profiles with scalable data management.',
       ],
       tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JavaScript'],
-      github: 'https://github.com/Yuvrajr17',
+      github: 'https://github.com/Yuvrajr17/Roadmap-Generator',
       live: '',
     },
     {
@@ -86,7 +86,7 @@ const PORTFOLIO_DATA = {
         'Structured and categorized log data to streamline analysis workflows and enhance troubleshooting speed.',
       ],
       tech: ['PHP', 'JavaScript', 'HTML', 'Tailwind CSS', 'MySQL'],
-      github: 'https://github.com/Yuvrajr17',
+      github: 'https://github.com/Yuvrajr17/AILog-Manager-website',
       live: '',
     },
   ],
