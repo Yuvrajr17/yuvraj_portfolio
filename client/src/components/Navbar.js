@@ -108,7 +108,7 @@ export default function Navbar({ hero }) {
 
           {/* Resume download button */}
           <a
-            href="http://localhost:5000/resume/Yuvraj_Singh_Sisodiya_Resume_10.pdf"
+            href="https://yuvraj-portfolio-api.onrender.com/resume/Yuvraj_Singh_Sisodiya_Resume_10.pdf"
             target="_blank"
             rel="noreferrer"
             style={{

@@ -47,7 +47,7 @@ export default function ResumeSection({ hero }) {
           </p>
 
           <a
-            href="http://localhost:5000/resume/Yuvraj_Singh_Sisodiya_Resume_10.pdf"
+            href="https://yuvraj-portfolio-api.onrender.com/resume/Yuvraj_Singh_Sisodiya_Resume_10.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
