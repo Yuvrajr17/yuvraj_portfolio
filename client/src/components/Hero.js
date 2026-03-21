@@ -189,8 +189,7 @@ export default function Hero({ hero }) {
               fontSize: 'clamp(1rem, 2.5vw, 1.3rem)',
               color: 'var(--muted)', marginBottom: '1.5rem',
             }}>
-              MERN Stack Developer{' '}
-              <span style={{ color: 'var(--accent3)' }}>&</span> CS Engineer
+              {hero.role}
             </p>
           </div>
 
