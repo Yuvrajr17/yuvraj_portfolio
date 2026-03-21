@@ -9,7 +9,12 @@ export const PortfolioProvider = ({ children }) => {
   const [error, setError]     = useState(null);
 
   useEffect(() => {
-    axios.get('https://yuvraj-portfolio-api.onrender.com/api/portfolio')
+    // Wake up Render first
+    axios.get('https://yuvraj-portfolio-api.onrender.com/api/health')
+      .then(() => {
+        // Then fetch portfolio data
+        return axios.get('https://yuvraj-portfolio-api.onrender.com/api/portfolio');
+      })
       .then(res => setData(res.data.data))
       .catch(err => setError(err.message))
       .finally(() => setLoading(false));
