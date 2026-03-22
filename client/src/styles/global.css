@@ -136,3 +136,7 @@ ul { list-style: none; }
 @media (max-width: 768px) {
   .section-wrapper { padding: 4rem 1.25rem; }
 }
+@keyframes onlinePulse {
+  0%, 100% { box-shadow: 0 0 8px #48bb78; }
+  50%       { box-shadow: 0 0 16px #48bb78; }
+}
